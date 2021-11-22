@@ -1,0 +1,13 @@
+.user-container {
+  max-width: 600px;
+  margin: 50px auto;
+  overflow: auto;
+  min-height: 400px;
+  display: flex;
+  padding: 30px;
+  justify-content: center;
+  background-color: #708090;
+  border-radius: 6px;
+  opacity: 0.9;
+  border-bottom: 10px solid #dcdcdc;
+}

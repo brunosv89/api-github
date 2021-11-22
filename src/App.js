@@ -1,25 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Home from "./pages/Home/Home";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const api = {
+  baseUrl: "https://api.github.com/",
+  cliente_id: "4d0e589ceaf39399fb3b",
+  cliente_secret: "77ab8a300c4101ef25ff824dc1a5fa2e35e44979",
+};
+
+const App = () => {
+  return <Home />;
+};
 
 export default App;
