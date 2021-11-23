@@ -5,8 +5,8 @@ import Dados from "../Dados/Dados";
 const UserRepos = () => {
   return (
     <div className="repos-container">
-      <Dados title="Repositories" number="12" />
-      <Dados title="Starred" number="6" />
+      <Dados route="/repos" title="Repositories" number="12" />
+      <Dados route="/starred" title="Starred" number="6" />
     </div>
   );
 };

@@ -3,14 +3,4 @@
   flex-direction: row;
   width: 100%;
   justify-content: space-around;
-  text-align: center;
-}
-
-.repos:hover,
-.starred:hover {
-  opacity: 0.7;
-  cursor: pointer;
-  transition: 0.3s ease;
-  border: 1px solid #fff;
-  border: none;
 }

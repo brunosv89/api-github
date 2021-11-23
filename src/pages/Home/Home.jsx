@@ -5,17 +5,20 @@ import UserContainer from "../../components/UserContainer/UserContainer";
 import UserPicture from "../../components/UserPicture/UserPicture";
 import UserDetails from "../../components/UserDetails/UserDetails";
 import UserRepos from "../../components/repos/UserRepos";
+import { useContext } from "react";
+import { context } from "../../context/Context";
 
 const Home = () => {
+  const ctx = useContext(context);
   return (
     <main>
       <Header />
       <UserContainer>
         <UserPicture
-          url="https://avatars.githubusercontent.com/u/66140511?v=4"
-          alternativeText="image"
+          url={ctx.userData?.avatar_url}
+          alternativeText="avatar image"
         />
-        <UserDetails name="name" login="username" />
+        <UserDetails name={ctx.userData?.name} login={ctx.userData?.login} />
         <UserRepos />
       </UserContainer>
     </main>

@@ -1,11 +1,14 @@
 import React from "react";
 import Rotas from "./Routes/Rotas";
 import { BrowserRouter as Router } from "react-router-dom";
+import { ContextProvider } from "./context/Context";
 
 const App = () => {
   return (
     <Router>
-      <Rotas />
+      <ContextProvider>
+        <Rotas />
+      </ContextProvider>
     </Router>
   );
 };
