@@ -5,8 +5,7 @@ import "./Form.css";
 const Form = () => {
   return (
     <div className="form-container">
-      <label className="label"> Username: </label>
-      <input className="input" type="text" />
+      <input className="input" type="text" placeholder="username" />
       <Btn> Search </Btn>
     </div>
   );

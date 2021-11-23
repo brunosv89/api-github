@@ -1,0 +1,16 @@
+.title {
+  font-size: 15px;
+  color: #dcdcdc;
+}
+
+.number {
+  font-size: 30px;
+  color: #171f2b;
+  font-weight: bold;
+}
+
+.box:hover {
+  cursor: pointer;
+  transition: 0.5s ease;
+  transform: scale(1.08);
+}

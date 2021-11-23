@@ -1,13 +1,15 @@
 .user-container {
-  max-width: 600px;
+  max-width: 500px;
   margin: 50px auto;
   overflow: auto;
-  min-height: 400px;
+  min-height: 300px;
   display: flex;
+  flex-direction: column;
   padding: 30px;
-  justify-content: center;
+  align-items: center;
   background-color: #708090;
   border-radius: 6px;
   opacity: 0.9;
   border-bottom: 10px solid #dcdcdc;
+  border-top: 10px solid #dcdcdc;
 }
