@@ -1,6 +1,13 @@
 .repos-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   width: 100%;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
+}
+
+.link {
+  margin: 20px 0 5px;
+  color: black;
+  font-size: 14px;
 }

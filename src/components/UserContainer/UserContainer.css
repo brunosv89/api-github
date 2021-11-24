@@ -1,6 +1,6 @@
 .user-container {
-  max-width: 500px;
-  margin: 50px auto;
+  max-width: 400px;
+  margin: 30px auto;
   overflow: auto;
   min-height: 400px;
   display: flex;

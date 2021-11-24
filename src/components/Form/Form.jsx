@@ -11,7 +11,9 @@ const Form = () => {
   async function getUserData() {
     try {
       const response = await client.get(`/${busca}`);
+      const repositories = await client.get(`/${busca}/repos`);
       ctx.setUserData(response.data);
+      ctx.setRepos(repositories.data);
     } catch (err) {
       console.log(err);
     }

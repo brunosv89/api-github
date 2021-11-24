@@ -1,17 +1,19 @@
 .box {
-  width: 25%;
-  margin-top: 20px;
-  height: 70px;
+  width: 40%;
+  margin-top: 10px;
+  height: 80px;
   padding: 10px;
-  background-color: #708090;
-  border: none;
+  background-color: #798999;
+  border: 1px outset #a9a9a9;
+  border-radius: 6px;
   cursor: pointer;
+  box-shadow: 3px 3px 3px #4f4f4f;
+  padding: 5px;
 }
 
 .box:hover {
   transition: 0.5s ease;
   transform: scale(1.05);
-  box-shadow: 5px 5px 5px #778899;
   border-radius: 10px;
 }
 
@@ -22,7 +24,7 @@
 }
 
 .numero {
-  font-size: 28px;
+  font-size: 32px;
   font-weight: bold;
   color: #171f2b;
 }
